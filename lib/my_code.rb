@@ -1,5 +1,5 @@
 # My Code here....
-des like_map_to_negative(array)
+def like_map_to_negative(array)
 
 new_array = map_to_negativize(array)
 
