@@ -79,6 +79,8 @@ result = true
 array.any? { |element|
             if element
               result = true
+            else
+              result = false
             end
              }
 
