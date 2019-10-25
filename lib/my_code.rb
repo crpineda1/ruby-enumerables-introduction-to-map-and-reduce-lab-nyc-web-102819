@@ -59,7 +59,7 @@ def reduce_to_all_true(source_array)
 
 array = source_array
 
-result = 0
+result = true
 
 array.any? { |element|
             if !element
