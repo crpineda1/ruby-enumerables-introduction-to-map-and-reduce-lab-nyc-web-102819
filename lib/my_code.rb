@@ -53,3 +53,20 @@ array.each { |element|
 
 return result
 end
+
+
+def reduce_to_all_true(source_array)
+
+
+
+array = source_array
+
+result = 0
+
+array.each { |element|
+            if element
+              result += 1
+             }
+
+return result
+end
