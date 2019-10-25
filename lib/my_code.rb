@@ -44,11 +44,11 @@ def reduce_to_total(source_array,starting_point)
 
 start = starting_point
 array = source_array
+
 result = 0
 
-new_array = []
 array.each { |element|
               result += element + start }
 
-return new_array
+return result
 end
