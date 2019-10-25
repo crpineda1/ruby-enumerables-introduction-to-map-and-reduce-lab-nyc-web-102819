@@ -69,3 +69,18 @@ array.any? { |element|
 
 return result
 end
+
+def reduce_to_any_true(source_array)
+
+array = source_array
+
+result = true
+
+array.any? { |element|
+            if element
+              result = true
+            end
+             }
+
+return result
+end
