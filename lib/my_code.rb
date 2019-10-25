@@ -48,7 +48,7 @@ result = 0
 
 new_array = []
 array.each { |element|
-              result += element }
+              result += element + start }
 
 return new_array
 end
