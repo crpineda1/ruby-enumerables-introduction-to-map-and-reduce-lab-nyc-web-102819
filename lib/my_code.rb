@@ -49,7 +49,7 @@ array = source_array
 result = 0
 
 array.each { |element|
-              result += element + start }
+              result + start += element }
 
 return result
 end
