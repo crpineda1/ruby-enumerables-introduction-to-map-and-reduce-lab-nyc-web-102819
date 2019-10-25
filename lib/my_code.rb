@@ -29,7 +29,7 @@ return new_array
 end
 
 
-def map_to_no_change(array)
+def map_to_square(array)
 
 new_array = []
 array.each { |element|
