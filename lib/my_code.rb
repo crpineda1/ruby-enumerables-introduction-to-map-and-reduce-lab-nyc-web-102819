@@ -66,6 +66,7 @@ result = 0
 array.each { |element|
             if element
               result += 1
+            end
              }
 
 return result
