@@ -9,3 +9,14 @@ array.each { |element|
 return new_array
 
 end
+
+def map_to_no_change(array)
+
+new_array = []
+
+array.each { |element|
+              new_array.push(element) }
+
+return new_array
+
+end
