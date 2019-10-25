@@ -10,12 +10,12 @@ return new_array
 
 end
 
-def map_to_no_change(array)
+def map_to_double(array)
 
 new_array = []
 
 array.each { |element|
-              new_array.push(element) }
+              new_array.push(element * 2) }
 
 return new_array
 
