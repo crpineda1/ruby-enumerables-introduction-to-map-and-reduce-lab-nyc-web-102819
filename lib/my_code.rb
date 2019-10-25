@@ -46,10 +46,10 @@ start = starting_point
 
 array = source_array
 
-result = 0
+result = (0 + start)
 
 array.each { |element|
-              result + start += element }
+              result += element }
 
 return result
 end
