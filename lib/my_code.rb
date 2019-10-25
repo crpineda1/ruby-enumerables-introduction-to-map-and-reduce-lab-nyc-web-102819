@@ -84,5 +84,3 @@ array.each { |element|
 
 return result
 end
-
-
